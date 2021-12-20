@@ -1,3 +1,9 @@
+import sys  
+from pathlib import Path  
+file = Path(__file__).resolve()  
+package_root_directory = file.parents[1]  
+sys.path.append(str(package_root_directory))
+
 # Demande à l'utilisateur de rentrer une commande de jeu, répète la question si la commande n'est pas valide
 def read_player_command():
     move = input("Entrez votre commande (g (gauche), d (droite), h (haut), b (bas)): ")
@@ -19,12 +25,4 @@ def read_theme_grid():
     while theme not in ['0','1','2']:
         theme = input("Entrez le thème voulu (0 (Default), 1 (Chemistry), 2 (Alphabet)): ")
     return(theme)
-
-
-'''
-if __name__ == '__main__':
-    game_play()
-    random_play()
-    exit(1)
-'''
 

@@ -1,6 +1,6 @@
 from pytest import *
 from io import StringIO
-from textual_2048 import read_player_command
+from game2048.textual_2048 import read_player_command
 
 def test_read_player_command(monkeypatch):
     
