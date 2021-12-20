@@ -1,3 +1,0 @@
-Des améliorations que on doit faire:
-1º Il faut devenir le jeu plus interactif pour tous les ordinateurs(AZERTY et QWERTY), ainsi on doit modifier les entrées. 
-2º Il faut corriger l'affichage de la grille. Parce que, au cours du jeu, les chifres ne resteront pas centralisés.

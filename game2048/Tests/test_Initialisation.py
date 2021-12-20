@@ -1,5 +1,5 @@
 from pytest import *
-from Initialisation import *
+from game2048.Initialisation import *
 
 
 def test_create_grid():

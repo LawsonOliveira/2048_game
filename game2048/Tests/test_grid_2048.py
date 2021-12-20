@@ -1,6 +1,6 @@
 from pytest import *
-from grid_2048 import *
-from Initialisation import *
+from game2048.grid_2048 import *
+from game2048.Initialisation import *
 
 def test_grid_add_new_tile():
     game_grid = create_grid(4)

@@ -6,7 +6,6 @@ sys.path.append(str(package_root_directory))
 
 from game2048.interface_graphique import *
 from game2048.Initialisation import *
-from game2048.affichage_grille import *
 from game2048.grid_2048 import *
 from game2048.textual_2048 import *
 
